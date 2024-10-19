@@ -9,3 +9,16 @@ class Sponsor:
 
 Sponsor1 = Sponsor('Nike', 'Just Do It!')
 Sponsor1.display_info()
+print(sep='\n')
+
+class Shoe(Sponsor):
+    def __init__(self, name, slang, model):
+        super().__init__(name, slang)
+        self.model = model
+
+    def display_info(self):
+        super().display_info()
+        print(f'Spike Model: {self.model}')
+
+myspike = Shoe('Nike', 'Just DO It!', 'Nike-MaxFLY')
+myspike.display_info()
