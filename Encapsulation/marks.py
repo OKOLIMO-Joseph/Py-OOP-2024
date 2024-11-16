@@ -24,4 +24,4 @@ stud2 = Marks('Job OKULLO', 'B25634', 'CS', 54, 33)
 stud2.grade()
 
 stud3 = Marks('Timo OPEGA', 'A34025', 'BDS', 56, 34)
-
+stud3
