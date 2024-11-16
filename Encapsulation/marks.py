@@ -19,5 +19,6 @@ stud1 = Marks('Jos OKOLIMO', 'B22562', 'BSIT', 55, 35)
 stud1.grade()
 
 print(sep='\n')
+
 stud2 = Marks('Job OKULLO', 'B25634', 'CS', 54, 33)
 stud2.grade()
